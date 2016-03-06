@@ -9,28 +9,41 @@ $ node render.js
 result
 
 ```
+nunjucksCompiled
+Raw:
+> 305.64535464535464
+> 304.12887112887114
+> 301.2267732267732
+> 276.13186813186815
+Average (mean) 296.78321678321674
+
 nunjucks
 Raw:
- > 92.20779220779221
- > 93.00399600399601
- > 86.96403596403596
- > 95.12787212787212
-Average (mean) 91.82592407592408
+> 121.1008991008991
+> 117.28771228771228
+> 115.46853146853147
+> 112.25374625374626
+Average (mean) 116.52772227772228
 
 swig
 Raw:
- > 19.98901098901099
- > 19.823176823176823
- > 18.393606393606394
- > 19.786213786213786
-Average (mean) 19.498001998001996
+> 29.622377622377623
+> 30.146853146853147
+> 30.164835164835164
+> 27.584415584415584
+Average (mean) 29.37962037962038
 
-Winner: nunjucks
-Compared with next highest (swig), it's:
-78.77% faster
-4.71 times as fast
-0.67 order(s) of magnitude faster
+Winner: nunjucksCompiled
+Compared with next highest (nunjucks), it's:
+60.74% faster
+2.55 times as fast
+0.41 order(s) of magnitude faster
 QUITE A BIT FASTER
+
+Compared with the slowest (swig), it's:
+90.1% faster
+10.1 times as fast
+1 order(s) of magnitude faster
 ```
 
 ## renderString
