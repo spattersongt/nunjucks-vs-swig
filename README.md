@@ -46,6 +46,39 @@ Compared with the slowest (swig), it's:
 1 order(s) of magnitude faster
 ```
 
+### renderComplex
+
+```
+$ node renderComplex.js
+```
+
+result
+
+```
+nunjucksCompiled
+Raw:
+> 307.2147852147852
+> 297.95604395604397
+> 303.2009950248756
+> 303.61138861138863
+Average (mean) 302.99580320177336
+
+nunjucks
+Raw:
+> 39.77045908183633
+> 41.452095808383234
+> 42.36878727634195
+> 41.24003984063745
+Average (mean) 41.20784550179974
+
+Winner: nunjucksCompiled
+Compared with next highest (nunjucks), it's:
+86.4% faster
+7.35 times as fast
+0.87 order(s) of magnitude faster
+QUITE A BIT FASTER
+```
+
 ## renderString
 
 ```
