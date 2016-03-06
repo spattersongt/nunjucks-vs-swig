@@ -1,11 +1,12 @@
-%{ macro testMacro(a, b, c) %}
+{% macro testMacro(a, b, c) %}
 
 {% if a > b and b < c  %}
    {{ a }} {{ b }} {{ c }}
-{%else %}
+{% else %}
    {{ c }} {{ b }} {{ a }}
 {% endif %}
 
+{% endmacro %} 
 
 <h1>{{ header }}</h1>
 {% if items.length %}

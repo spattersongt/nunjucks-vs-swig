@@ -57,25 +57,25 @@ result
 ```
 nunjucksCompiled
 Raw:
-> 307.2147852147852
-> 297.95604395604397
-> 303.2009950248756
-> 303.61138861138863
-Average (mean) 302.99580320177336
+> 302.43256743256745
+> 302.47052947052947
+> 306.968031968032
+> 298.3766233766234
+Average (mean) 302.56193806193806
 
 nunjucks
 Raw:
-> 39.77045908183633
-> 41.452095808383234
-> 42.36878727634195
-> 41.24003984063745
-Average (mean) 41.20784550179974
+> 60.53746253746254
+> 63.082917082917085
+> 62.59240759240759
+> 61.645354645354644
+Average (mean) 61.964535464535466
 
 Winner: nunjucksCompiled
 Compared with next highest (nunjucks), it's:
-86.4% faster
-7.35 times as fast
-0.87 order(s) of magnitude faster
+79.52% faster
+4.88 times as fast
+0.69 order(s) of magnitude faster
 QUITE A BIT FASTER
 ```
 
